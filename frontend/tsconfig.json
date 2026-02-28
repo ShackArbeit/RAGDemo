@@ -1,4 +1,5 @@
 {
+  // 檔案說明: TypeScript 編譯與路徑設定供 Next.js 使用。
   "compilerOptions": {
     "lib": [
       "dom",

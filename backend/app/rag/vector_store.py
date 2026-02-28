@@ -1,3 +1,4 @@
+# 檔案說明: 使用簡化 TF-IDF 建立向量並以餘弦相似度做檢索。
 import math
 from collections import Counter
 from app.db.seed import DOCS

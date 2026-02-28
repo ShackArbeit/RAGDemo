@@ -1,3 +1,4 @@
+# 檔案說明: Prompt injection 偵測與基本輸出清理。
 import re
 
 BLOCK_PATTERNS = [

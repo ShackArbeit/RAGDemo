@@ -1,3 +1,4 @@
+# 檔案說明: Chat API (SSE)；串接 RBAC/租戶、混合檢索、LLM 回答與稽核寫入。
 import json
 import time
 from fastapi import APIRouter, Depends

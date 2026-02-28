@@ -1,3 +1,4 @@
+# 檔案說明: 定義 backend (FastAPI) 與 frontend (Next.js) 的 Docker 服務、環境變數與掛載。
 services:
   backend:
     build: ./backend

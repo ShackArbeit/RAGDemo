@@ -1,5 +1,7 @@
 "use client";
 
+// 檔案說明: 聊天 UI；取得 dev token，透過 SSE 呼叫後端 /chat/stream，並顯示 Meta/答案/引用。
+
 import { useEffect, useMemo, useState } from "react";
 
 type Citation = { n: number; kind: string; title: string; source: any };

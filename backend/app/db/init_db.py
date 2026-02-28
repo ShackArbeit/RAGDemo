@@ -1,3 +1,4 @@
+# 檔案說明: 建立 SQLAlchemy engine/session，並於啟動時建表。
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from app.core.config import settings

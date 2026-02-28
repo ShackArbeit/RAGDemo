@@ -1,3 +1,4 @@
+# 檔案說明: FastAPI 入口，掛載 CORS、初始化資料庫並註冊聊天路由。
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api.chat import router as chat_router

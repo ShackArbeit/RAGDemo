@@ -1,3 +1,4 @@
+# 檔案說明: LLM 介面；可用 mock 回答或 OpenAI Responses API，並估算 token。
 from app.core.config import settings
 from app.core.security import sanitize_output
 from openai import OpenAI

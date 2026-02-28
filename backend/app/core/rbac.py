@@ -1,3 +1,4 @@
+# 檔案說明: RBAC 角色檢查依賴，限制具特定角色的使用者存取。
 from fastapi import Depends, HTTPException
 from .auth import User, get_current_user
 

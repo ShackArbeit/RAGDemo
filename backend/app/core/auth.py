@@ -1,3 +1,4 @@
+# 檔案說明: JWT 驗證/解碼，並提供本地開發用的 dev token。
 from jose import jwt, JWTError
 from fastapi import Header, HTTPException
 from pydantic import BaseModel

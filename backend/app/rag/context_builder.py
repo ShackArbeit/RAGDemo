@@ -1,3 +1,4 @@
+# 檔案說明: 去重並裁剪檢索結果，組合成供 LLM 使用的上下文字串。
 def build_context(items: list[dict], max_chars: int = 900):
     seen = set()
     ctx_parts = []

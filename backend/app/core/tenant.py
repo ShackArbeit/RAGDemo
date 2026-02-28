@@ -1,3 +1,4 @@
+# 檔案說明: 從 JWT 使用者資訊抽取租戶並驗證存在。
 from fastapi import Depends, HTTPException
 from .auth import User, get_current_user
 

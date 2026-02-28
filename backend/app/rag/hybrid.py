@@ -1,3 +1,4 @@
+# 檔案說明: 協調向量、SQL、圖三種檢索策略並排序回傳。
 from .vector_store import VectorStore
 from .sql_retriever import SQLRetriever
 from .graph_retriever import GraphRetriever

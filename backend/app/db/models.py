@@ -1,3 +1,4 @@
+# 檔案說明: 定義資料模型（AuditLog、Customer、Order）。
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy import String, Integer, Text
 

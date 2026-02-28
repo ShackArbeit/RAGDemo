@@ -1,3 +1,4 @@
+# 檔案說明: 初始化示範資料，並提供 RAG 用的向量/圖資料常數。
 from app.db.init_db import SessionLocal
 from app.db.models import Customer, Order
 

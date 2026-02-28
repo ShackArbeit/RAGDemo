@@ -1,3 +1,4 @@
+# 檔案說明: 以簡化條件推論問題意圖並查詢 SQLite，回傳結構化摘要。
 from sqlalchemy import select
 from app.db.init_db import SessionLocal
 from app.db.models import Customer, Order

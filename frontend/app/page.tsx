@@ -1,3 +1,4 @@
+// 檔案說明: 首頁，呈現專案標題與聊天元件。
 import Chat from "./components/Chat";
 
 export default function Page() {

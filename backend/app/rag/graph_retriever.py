@@ -1,3 +1,4 @@
+# 檔案說明: 以簡易關聯圖資料，根據問題中的實體回傳鄰接資訊。
 from app.db.seed import GRAPH
 
 class GraphRetriever:

@@ -1,3 +1,4 @@
+# 檔案說明: 簡易 trace span context manager（目前僅示範用）。
 import time, uuid
 from contextlib import contextmanager
 
