@@ -1,0 +1,25 @@
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_ENV=dev
+      - JWT_SECRET=dev-secret
+      - DATABASE_URL=sqlite:///./app.db
+      # Optional: if you want to switch to OpenAI
+      # - LLM_PROVIDER=openai
+      # - OPENAI_API_KEY=YOUR_KEY
+    volumes:
+      - ./backend:/code
+    command: ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_BASE=http://localhost:8000
+    volumes:
+      - ./frontend:/app
+    command: ["npm", "run", "dev"]

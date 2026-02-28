@@ -1,0 +1,19 @@
+# Python/Flask backend
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.env
+*.env
+app.db
+*.sqlite3
+*.log
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.pytest_cache/
+.DS_Store
